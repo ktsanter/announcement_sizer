@@ -88,7 +88,7 @@ const app = function () {
     var container = CreateElement.createDiv(null, 'control-container');
     
     container.appendChild(CreateElement.createDiv(null, 'control-label', 'padding %'));
-    var spininput = CreateElement.createSpinner('inputPadding', null, 60, 30, 100, 0.1)
+    var spininput = CreateElement.createSpinner('inputPadding', null, 60, 30, 200, 0.1)
     container.appendChild(spininput);
     spininput.title = 'adjust padding to size slides';
     spininput.addEventListener('click', _handlePaddingSelectChange, false);
