@@ -170,7 +170,7 @@ const app = function () {
   
   function _getSlideBaseLink(fullLink) {
     var baseLink = null;
-    
+    console.log(fullLink);
     var endOfBase = fullLink.indexOf('/pub?');
     if (endOfBase > 0) {
       baseLink = fullLink.slice(0, endOfBase) + '/embed?';
